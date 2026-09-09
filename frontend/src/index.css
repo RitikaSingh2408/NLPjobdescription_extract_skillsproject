@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fb;
+  color: #172033;
+}
+
+
+/* =========================
+   AUTH
+========================= */
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fb;
+}
+
+.auth-card {
+  width: 420px;
+  padding: 40px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.auth-card h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.auth-subtitle {
+  text-align: center;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-card label {
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+.auth-card input {
+  padding: 13px;
+  border: 1px solid #d9dce5;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  font-size: 15px;
+  outline: none;
+}
+
+.auth-card input:focus {
+  border-color: #4f46e5;
+}
+
+.auth-card button {
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-card button:hover {
+  opacity: 0.9;
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: 22px;
+  color: #666;
+}
+
+.auth-footer a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.message {
+  margin-top: 15px;
+  text-align: center;
+  color: #d12f2f;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  height: 70px;
+  background: white;
+  border-bottom: 1px solid #e6e8ef;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #4f46e5;
+}
+
+.nav-user {
+  font-weight: 600;
+}
+
+.logout-btn {
+  border: none;
+  padding: 9px 16px;
+  border-radius: 7px;
+  background: #172033;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* =========================
+   DASHBOARD
+========================= */
+
+.dashboard-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 30px;
+}
+
+.welcome-section {
+  margin-bottom: 35px;
+}
+
+.small-title {
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.welcome-section h1 {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.welcome-section p {
+  color: #666;
+  font-size: 17px;
+}
+
+
+/* =========================
+   INPUT
+========================= */
+
+.input-section {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #e4e6ec;
+  margin-bottom: 35px;
+}
+
+.input-section h2 {
+  margin-bottom: 8px;
+}
+
+.input-section p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.input-section textarea {
+  width: 100%;
+  height: 200px;
+  resize: vertical;
+
+  padding: 16px;
+
+  border: 1px solid #d9dce5;
+  border-radius: 10px;
+
+  font-size: 15px;
+  font-family: inherit;
+
+  outline: none;
+}
+
+.input-section textarea:focus {
+  border-color: #4f46e5;
+}
+
+.extract-btn {
+  margin-top: 18px;
+  padding: 13px 25px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #4f46e5;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+
+/* =========================
+   RESULTS
+========================= */
+
+.results-section {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #e4e6ec;
+}
+
+.results-section h2 {
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.skill-card {
+  padding: 20px;
+  border: 1px solid #e1e3eb;
+  border-radius: 12px;
+}
+
+.skill-card h3 {
+  margin-bottom: 10px;
+}
+
+.skill-card span {
+  font-size: 13px;
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+
+/* =========================
+   RECOMMENDATIONS
+========================= */
+
+.recommendation {
+  margin-top: 35px;
+}
+
+.recommendation-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.technology {
+  padding: 10px 16px;
+  border-radius: 20px;
+  background: #eef0ff;
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+
+/* =========================
+   HISTORY / PROFILE
+========================= */
+
+.empty-history,
+.profile-card {
+  background: white;
+  padding: 35px;
+  border-radius: 16px;
+  border: 1px solid #e4e6ec;
+}
+
+.empty-history p,
+.profile-card p {
+  color: #777;
+  margin-top: 8px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 800px) {
+
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-user {
+    display: none;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .auth-card {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+}

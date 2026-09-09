@@ -1,0 +1,237 @@
+Raw Skill,Normalized Skill,Category
+python3,Python,Programming
+python,Python,Programming
+Python,Python,Programming
+java,Java,Programming
+Java,Java,Programming
+c,C,Programming
+C,C,Programming
+cpp,C++,Programming
+c plus plus,C++,Programming
+C++,C++,Programming
+csharp,C#,Programming
+c sharp,C#,Programming
+C#,C#,Programming
+javascript,JavaScript,Programming
+js,JavaScript,Programming
+JavaScript,JavaScript,Programming
+typescript,TypeScript,Programming
+ts,TypeScript,Programming
+TypeScript,TypeScript,Programming
+r programming,R,Programming
+R,R,Programming
+html,HTML,Web Development
+html5,HTML,Web Development
+HTML,HTML,Web Development
+css,CSS,Web Development
+css3,CSS,Web Development
+CSS,CSS,Web Development
+reactjs,React,Web Development
+react.js,React,Web Development
+React,React,Web Development
+angularjs,Angular,Web Development
+angular,Angular,Web Development
+Angular,Angular,Web Development
+vue,Vue.js,Web Development
+vuejs,Vue.js,Web Development
+Vue.js,Vue.js,Web Development
+nodejs,Node.js,Web Development
+node.js,Node.js,Web Development
+Node.js,Node.js,Web Development
+express,Express.js,Web Development
+expressjs,Express.js,Web Development
+Express.js,Express.js,Web Development
+nextjs,Next.js,Web Development
+next.js,Next.js,Web Development
+Next.js,Next.js,Web Development
+tailwind,Tailwind CSS,Web Development
+tailwindcss,Tailwind CSS,Web Development
+Tailwind CSS,Tailwind CSS,Web Development
+sql,SQL,Database
+SQL,SQL,Database
+mysql,MySQL,Database
+MySQL,MySQL,Database
+postgres,PostgreSQL,Database
+postgresql,PostgreSQL,Database
+PostgreSQL,PostgreSQL,Database
+mongodb,MongoDB,Database
+mongo,MongoDB,Database
+MongoDB,MongoDB,Database
+oracle database,Oracle,Database
+Oracle,Oracle,Database
+redis,Redis,Database
+Redis,Redis,Database
+powerbi,Power BI,Data Analytics
+power-bi,Power BI,Data Analytics
+Power BI,Power BI,Data Analytics
+tableau,Tableau,Data Analytics
+Tableau,Tableau,Data Analytics
+ms excel,Excel,Data Analytics
+microsoft excel,Excel,Data Analytics
+excel,Excel,Data Analytics
+Excel,Excel,Data Analytics
+looker,Looker,Data Analytics
+Looker,Looker,Data Analytics
+pandas,Pandas,Data Science
+Pandas,Pandas,Data Science
+numpy,NumPy,Data Science
+NumPy,NumPy,Data Science
+matplotlib,Matplotlib,Data Science
+Matplotlib,Matplotlib,Data Science
+seaborn,Seaborn,Data Science
+Seaborn,Seaborn,Data Science
+scipy,SciPy,Data Science
+SciPy,SciPy,Data Science
+scikit learn,Scikit-learn,Machine Learning
+sklearn,Scikit-learn,Machine Learning
+scikit-learn,Scikit-learn,Machine Learning
+Scikit-learn,Scikit-learn,Machine Learning
+tensorflow,TensorFlow,Machine Learning
+TensorFlow,TensorFlow,Machine Learning
+pytorch,PyTorch,Machine Learning
+PyTorch,PyTorch,Machine Learning
+keras,Keras,Machine Learning
+Keras,Keras,Machine Learning
+xgboost,XGBoost,Machine Learning
+XGBoost,XGBoost,Machine Learning
+lightgbm,LightGBM,Machine Learning
+LightGBM,LightGBM,Machine Learning
+spark,Apache Spark,Big Data
+pyspark,Apache Spark,Big Data
+apache spark,Apache Spark,Big Data
+Apache Spark,Apache Spark,Big Data
+hadoop,Hadoop,Big Data
+Hadoop,Hadoop,Big Data
+hive,Hive,Big Data
+Hive,Hive,Big Data
+kafka,Kafka,Big Data
+apache kafka,Kafka,Big Data
+Kafka,Kafka,Big Data
+databricks,Databricks,Big Data
+Databricks,Databricks,Big Data
+aws,AWS,Cloud
+amazon web services,AWS,Cloud
+AWS,AWS,Cloud
+azure,Azure,Cloud
+microsoft azure,Azure,Cloud
+Azure,Azure,Cloud
+gcp,GCP,Cloud
+google cloud,GCP,Cloud
+GCP,GCP,Cloud
+ec2,Amazon EC2,Cloud
+amazon ec2,Amazon EC2,Cloud
+Amazon EC2,Amazon EC2,Cloud
+s3,Amazon S3,Cloud
+amazon s3,Amazon S3,Cloud
+Amazon S3,Amazon S3,Cloud
+aws glue,AWS Glue,Cloud
+AWS Glue,AWS Glue,Cloud
+adf,Azure Data Factory,Cloud
+azure data factory,Azure Data Factory,Cloud
+Azure Data Factory,Azure Data Factory,Cloud
+git,Git,DevOps
+Git,Git,DevOps
+github,GitHub,DevOps
+GitHub,GitHub,DevOps
+gitlab,GitLab,DevOps
+GitLab,GitLab,DevOps
+docker,Docker,DevOps
+Docker,Docker,DevOps
+k8s,Kubernetes,DevOps
+kubernetes,Kubernetes,DevOps
+Kubernetes,Kubernetes,DevOps
+jenkins,Jenkins,DevOps
+Jenkins,Jenkins,DevOps
+terraform,Terraform,DevOps
+Terraform,Terraform,DevOps
+ansible,Ansible,DevOps
+Ansible,Ansible,DevOps
+natural language processing,Natural Language Processing,AI/NLP
+NLP,Natural Language Processing,AI/NLP
+transformer,Transformers,AI/NLP
+Transformers,Transformers,AI/NLP
+bert,BERT,AI/NLP
+BERT,BERT,AI/NLP
+gpt,GPT,AI/NLP
+generative pre-trained transformer,GPT,AI/NLP
+GPT,GPT,AI/NLP
+huggingface,Hugging Face,AI/NLP
+hugging face,Hugging Face,AI/NLP
+Hugging Face,Hugging Face,AI/NLP
+spacy,spaCy,AI/NLP
+spaCy,spaCy,AI/NLP
+nltk,NLTK,AI/NLP
+NLTK,NLTK,AI/NLP
+langchain,LangChain,AI/NLP
+LangChain,LangChain,AI/NLP
+cyber security,Cybersecurity,Cybersecurity
+Cybersecurity,Cybersecurity,Cybersecurity
+network security,Network Security,Cybersecurity
+Network Security,Network Security,Cybersecurity
+ethical hacking,Ethical Hacking,Cybersecurity
+Ethical Hacking,Ethical Hacking,Cybersecurity
+pentesting,Penetration Testing,Cybersecurity
+penetration testing,Penetration Testing,Cybersecurity
+Penetration Testing,Penetration Testing,Cybersecurity
+wireshark,Wireshark,Cybersecurity
+Wireshark,Wireshark,Cybersecurity
+"basic computer, computer knowledge",Basic Computer Knowledge,Computer
+Basic Computer Knowledge,Basic Computer Knowledge,Computer
+computer fundamentals,Computer Fundamentals,Computer
+Computer Fundamentals,Computer Fundamentals,Computer
+"microsoft office, ms office",MS Office,Office Tools
+MS Office,MS Office,Office Tools
+"microsoft word, ms word",MS Word,Office Tools
+MS Word,MS Word,Office Tools
+"microsoft powerpoint, ms powerpoint",PowerPoint,Office Tools
+PowerPoint,PowerPoint,Office Tools
+"internet knowledge, internet",Internet,Computer
+Internet,Internet,Computer
+"email handling, email management",Email Handling,Computer
+Email Handling,Email Handling,Computer
+"dataentry, data entry operator",Data Entry,Data Entry
+Data Entry,Data Entry,Data Entry
+"typing, english typing",Typing,Data Entry
+Typing,Typing,Data Entry
+english typing,English Typing,Data Entry
+English Typing,English Typing,Data Entry
+data collection,Data Collection,Data Entry
+Data Collection,Data Collection,Data Entry
+data processing,Data Processing,Data Entry
+Data Processing,Data Processing,Data Entry
+"customer support, customer care",Customer Service,Customer Service
+Customer Service,Customer Service,Customer Service
+customer support,Customer Support,Customer Service
+Customer Support,Customer Support,Customer Service
+business process outsourcing,BPO,BPO
+BPO,BPO,BPO
+knowledge process outsourcing,KPO,BPO
+KPO,KPO,BPO
+"call centre, call center",Call Center,BPO
+Call Center,Call Center,BPO
+operations management,Operations,Operations
+Operations,Operations,Operations
+english language,English,Language
+English,English,Language
+tamil language,Tamil,Language
+Tamil,Tamil,Language
+hindi language,Hindi,Language
+Hindi,Hindi,Language
+communication skills,Communication,Soft Skill
+Communication,Communication,Soft Skill
+PHP,php,Programming
+php,php,Programming
+ml,Machine Learning,Machine Learning
+Machine Learning,Machine Learning,Machine Learning
+deep learning,Deep Learning,Machine Learning
+Deep Learning,Deep Learning,Machine Learning
+data science,Data Science,Data Science
+Data Science,Data Science,Data Science
+nlp,Natural Language Processing,NLP
+Natural Language Processing,Natural Language Processing,NLP
+"cv, computer vision",Computer Vision,Machine Learning
+Computer Vision,Computer Vision,Machine Learning
+ai,Artificial Intelligence,AI
+Artificial Intelligence,Artificial Intelligence,AI
+data analysis,Data Analysis,Data Analytics
+Data Analysis,Data Analysis,Data Analytics

@@ -1,0 +1,102 @@
+skill,category,aliases
+Python,Programming,python3|python
+Java,Programming,java
+C,Programming,c
+C++,Programming,cpp|c plus plus
+C#,Programming,csharp|c sharp
+JavaScript,Programming,javascript|js
+TypeScript,Programming,typescript|ts
+R,Programming,r programming
+HTML,Web Development,html|html5
+CSS,Web Development,css|css3
+React,Web Development,reactjs|react.js
+Angular,Web Development,angularjs|angular
+Vue.js,Web Development,vue|vuejs
+Node.js,Web Development,nodejs|node.js
+Express.js,Web Development,express|expressjs
+Next.js,Web Development,nextjs|next.js
+Tailwind CSS,Web Development,tailwind|tailwindcss
+SQL,Database,sql
+MySQL,Database,mysql
+PostgreSQL,Database,postgres|postgresql
+MongoDB,Database,mongodb|mongo
+Oracle,Database,oracle database
+Redis,Database,redis
+Power BI,Data Visualization,powerbi|power-bi
+Tableau,Data Analytics,tableau
+Excel,Data Analytics,ms excel|microsoft excel|excel
+Looker,Data Analytics,looker
+Pandas,Data Science,pandas
+NumPy,Data Science,numpy
+Matplotlib,Data Science,matplotlib
+Seaborn,Data Science,seaborn
+SciPy,Data Science,scipy
+Scikit-learn,Machine Learning,scikit learn|sklearn|scikit-learn
+TensorFlow,Machine Learning,tensorflow
+PyTorch,Machine Learning,pytorch
+Keras,Machine Learning,keras
+XGBoost,Machine Learning,xgboost
+LightGBM,Machine Learning,lightgbm
+Apache Spark,Big Data,spark|pyspark|apache spark
+Hadoop,Big Data,hadoop
+Hive,Big Data,hive
+Kafka,Big Data,kafka|apache kafka
+Databricks,Big Data,databricks
+AWS,Cloud,aws|amazon web services
+Azure,Cloud,azure|microsoft azure
+GCP,Cloud,gcp|google cloud
+Amazon EC2,Cloud,ec2|amazon ec2
+Amazon S3,Cloud,s3|amazon s3
+AWS Glue,Cloud,aws glue
+Azure Data Factory,Cloud,adf|azure data factory
+Git,DevOps,git
+GitHub,DevOps,github
+GitLab,DevOps,gitlab
+Docker,DevOps,docker
+Kubernetes,DevOps,k8s|kubernetes
+Jenkins,DevOps,jenkins
+Terraform,DevOps,terraform
+Ansible,DevOps,ansible
+NLP,AI/NLP,natural language processing
+Transformers,AI/NLP,transformer
+BERT,AI/NLP,bert
+GPT,AI/NLP,gpt|generative pre-trained transformer
+Hugging Face,AI/NLP,huggingface|hugging face
+spaCy,AI/NLP,spacy
+NLTK,AI/NLP,nltk
+LangChain,AI/NLP,langchain
+Cybersecurity,Cybersecurity,cyber security
+Network Security,Cybersecurity,network security
+Ethical Hacking,Cybersecurity,ethical hacking
+Penetration Testing,Cybersecurity,pentesting|penetration testing
+Wireshark,Cybersecurity,wireshark
+Basic Computer Knowledge,Computer,"basic computer, computer knowledge"
+Computer Fundamentals,Computer,computer fundamentals
+MS Office,Office Tools,"microsoft office, ms office"
+MS Word,Office Tools,"microsoft word, ms word"
+PowerPoint,Office Tools,"microsoft powerpoint, ms powerpoint"
+Internet,Computer,"internet knowledge, internet"
+Email Handling,Computer,"email handling, email management"
+Data Entry,Data Entry,"dataentry, data entry operator"
+Typing,Data Entry,"typing, english typing"
+English Typing,Data Entry,english typing
+Data Collection,Data Entry,data collection
+Data Processing,Data Entry,data processing
+Customer Service,Customer Service,"customer support, customer care"
+Customer Support,Customer Service,customer support
+BPO,BPO,business process outsourcing
+KPO,BPO,knowledge process outsourcing
+Call Center,BPO,"call centre, call center"
+Operations,Operations,operations management
+English,Language,english language
+Tamil,Language,tamil language
+Hindi,Language,hindi language
+Communication,Soft Skill,communication skills
+php,Programming,PHP
+Machine Learning,Machine Learning,ml
+Deep Learning,Machine Learning,deep learning
+Data Science,Data Science,data science
+Natural Language Processing,NLP,nlp
+Computer Vision,Machine Learning,"cv, computer vision"
+Artificial Intelligence,AI,ai
+Data Analysis,Data Analytics,data analysis
