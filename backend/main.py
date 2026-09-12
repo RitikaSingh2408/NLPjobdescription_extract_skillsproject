@@ -306,7 +306,9 @@ def get_me(
     response_model=ExtractResponse
 )
 def extract_job_skills(
-    data: ExtractRequest
+    data: ExtractRequest,
+    current_user= Depends(get_current_user)
+
 ):
 
     text = data.job_description.strip()
@@ -347,6 +349,7 @@ def extract_job_skills(
 
         final_skills = role_skills'''
     role_skills = get_role_skills(text)
+
     if role_skills and len(normalized) <=1:
         final_skills = normalized + [
             skill
@@ -368,6 +371,29 @@ def extract_job_skills(
     recommended = recommend_technologies(
         final_skills
     )
+
+    # --------------------------------
+    # 5. SAVE EXTRACTION HISTORY
+    # --------------------------------
+
+    connection = get_connection()
+    cursor = connection.cursor()
+
+    cursor.execute(
+        """
+        INSERT INTO extraction_history
+        (user_id, job_description, skills)
+        VALUES (?, ?, ?)
+        """,
+        (
+            int(current_user["sub"]),
+            text,
+            json.dumps(final_skills)
+        )
+    )
+
+    connection.commit()
+    connection.close()
 
     # --------------------------------
     # 5. API RESPONSE
