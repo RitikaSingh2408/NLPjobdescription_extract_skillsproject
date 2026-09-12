@@ -348,7 +348,7 @@ def extract_job_skills(
         final_skills = role_skills'''
     role_skills = get_role_skills(text)
     if role_skills and len(normalized) <=1:
-        final_skils = normalized + [
+        final_skills = normalized + [
             skill
             for skill in role_skills
             if skill not in normalized
